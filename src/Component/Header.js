@@ -1,4 +1,11 @@
-function Header({ theme }) {
+import { ThemeContext } from "./App";
+import { useContext } from "react";
+
+function Header() {
+  const { theme } = useContext(ThemeContext);
+
+  // const { theme } = useContext(ThemeContext);
+
   console.log("+++props++", theme);
   return (
     <div className="padT4 padB4">

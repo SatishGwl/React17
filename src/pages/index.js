@@ -1,4 +1,4 @@
-import App from "../Component/App";
+import App from "../components/App";
 
 const IndexPage = () => {
   return (
